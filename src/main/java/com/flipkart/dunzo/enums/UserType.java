@@ -1,4 +1,4 @@
-package com.flipkart.donzo.enums;
+package com.flipkart.dunzo.enums;
 
 public enum UserType {
     DRIVER, CUSTOMER

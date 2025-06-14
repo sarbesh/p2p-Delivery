@@ -1,8 +1,8 @@
-package com.flipkart.donzo.utils;
+package com.flipkart.dunzo.utils;
 
-import com.flipkart.donzo.enums.OrderStatus;
-import com.flipkart.donzo.services.DriverService;
-import com.flipkart.donzo.services.OrderService;
+import com.flipkart.dunzo.enums.OrderStatus;
+import com.flipkart.dunzo.services.DriverService;
+import com.flipkart.dunzo.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;

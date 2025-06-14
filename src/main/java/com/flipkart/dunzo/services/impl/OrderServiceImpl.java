@@ -1,12 +1,12 @@
-package com.flipkart.donzo.services.impl;
+package com.flipkart.dunzo.services.impl;
 
-import com.flipkart.donzo.entities.Order;
-import com.flipkart.donzo.entities.Driver;
-import com.flipkart.donzo.enums.OrderStatus;
-import com.flipkart.donzo.enums.UserType;
-import com.flipkart.donzo.services.NotificationService;
-import com.flipkart.donzo.services.OrderService;
-import com.flipkart.donzo.services.DriverService;
+import com.flipkart.dunzo.entities.Order;
+import com.flipkart.dunzo.entities.Driver;
+import com.flipkart.dunzo.enums.OrderStatus;
+import com.flipkart.dunzo.enums.UserType;
+import com.flipkart.dunzo.services.NotificationService;
+import com.flipkart.dunzo.services.OrderService;
+import com.flipkart.dunzo.services.DriverService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;

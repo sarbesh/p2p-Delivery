@@ -1,7 +1,7 @@
-package com.flipkart.donzo.services.impl;
+package com.flipkart.dunzo.services.impl;
 
-import com.flipkart.donzo.entities.Driver;
-import com.flipkart.donzo.services.DriverService;
+import com.flipkart.dunzo.entities.Driver;
+import com.flipkart.dunzo.services.DriverService;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

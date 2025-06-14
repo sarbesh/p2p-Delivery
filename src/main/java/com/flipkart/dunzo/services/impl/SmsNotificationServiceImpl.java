@@ -1,9 +1,9 @@
-package com.flipkart.donzo.services.impl;
+package com.flipkart.dunzo.services.impl;
 
-import com.flipkart.donzo.enums.UserType;
-import com.flipkart.donzo.services.CustomerService;
-import com.flipkart.donzo.services.DriverService;
-import com.flipkart.donzo.services.NotificationService;
+import com.flipkart.dunzo.enums.UserType;
+import com.flipkart.dunzo.services.CustomerService;
+import com.flipkart.dunzo.services.DriverService;
+import com.flipkart.dunzo.services.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

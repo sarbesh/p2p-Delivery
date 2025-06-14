@@ -1,4 +1,4 @@
-package com.flipkart.donzo.utils;
+package com.flipkart.dunzo.utils;
 
 public class NotificationService {
     public void notifyCustomer(String customerId, String message) {

@@ -1,15 +1,15 @@
-package com.flipkart.donzo.entities;
+package com.flipkart.dunzo.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class Customer {
-    private String id;
+@NoArgsConstructor
+public class Driver {
+    private  String id;
     private String name;
-    private String email;
+    private boolean available;
     private int phoneNumber;
 }

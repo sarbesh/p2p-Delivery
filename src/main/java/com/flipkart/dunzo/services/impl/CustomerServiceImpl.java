@@ -1,7 +1,7 @@
-package com.flipkart.donzo.services.impl;
+package com.flipkart.dunzo.services.impl;
 
-import com.flipkart.donzo.entities.Customer;
-import com.flipkart.donzo.services.CustomerService;
+import com.flipkart.dunzo.entities.Customer;
+import com.flipkart.dunzo.services.CustomerService;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;

@@ -1,10 +1,10 @@
-package com.flipkart.donzo.utils;
+package com.flipkart.dunzo.utils;
 
-import com.flipkart.donzo.entities.Customer;
-import com.flipkart.donzo.entities.Items;
-import com.flipkart.donzo.services.CustomerService;
-import com.flipkart.donzo.services.DriverService;
-import com.flipkart.donzo.services.OrderService;
+import com.flipkart.dunzo.entities.Customer;
+import com.flipkart.dunzo.entities.Items;
+import com.flipkart.dunzo.services.CustomerService;
+import com.flipkart.dunzo.services.DriverService;
+import com.flipkart.dunzo.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

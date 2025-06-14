@@ -1,7 +1,7 @@
-package com.flipkart.donzo.entities;
+package com.flipkart.dunzo.entities;
 
 
-import com.flipkart.donzo.enums.OrderStatus;
+import com.flipkart.dunzo.enums.OrderStatus;
 import lombok.*;
 
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
-package com.flipkart.donzo.services;
+package com.flipkart.dunzo.services;
 
-import com.flipkart.donzo.entities.Driver;
+import com.flipkart.dunzo.entities.Driver;
 
 import java.util.List;
 

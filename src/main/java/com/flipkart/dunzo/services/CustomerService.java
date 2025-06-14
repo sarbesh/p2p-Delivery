@@ -1,6 +1,6 @@
-package com.flipkart.donzo.services;
+package com.flipkart.dunzo.services;
 
-import com.flipkart.donzo.entities.Customer;
+import com.flipkart.dunzo.entities.Customer;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;

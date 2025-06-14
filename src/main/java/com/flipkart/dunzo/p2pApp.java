@@ -1,6 +1,6 @@
-package com.flipkart.donzo;
+package com.flipkart.dunzo;
 
-import com.flipkart.donzo.utils.TestingApplication;
+import com.flipkart.dunzo.utils.TestingApplication;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;

@@ -24,4 +24,6 @@ public interface OrderService {
     List<Order> getOrders();
 
     void freeDriverAssignOrder(String driverId);
+
+    void addRating(String orderId, int rating);
 }

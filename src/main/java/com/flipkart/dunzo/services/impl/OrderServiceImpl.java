@@ -86,6 +86,7 @@ public class OrderServiceImpl implements OrderService {
     public void deliverOrder(Order order) {
         order.deliver();
         System.out.println("Order " + order.getOrderId() + " has been delivered.");
+        driverService.setDriverAvailability(order.getDriverId(), true);
 //        emailnotificationservice.sendNotification(order.getCustomerId(), UserType.CUSTOMER, "Your order has been delivered");
         smsNotificationService.sendNotification(order.getCustomerId(), UserType.CUSTOMER, "Your order has been delivered");
         freeDriverAssignOrder(order.getDriverId());
@@ -109,5 +110,12 @@ public class OrderServiceImpl implements OrderService {
         if(first.isPresent()){
             System.out.println("Driver " + driverId + " is now available and has been assigned to a pending order.");
         }
+    }
+
+    @Override
+    public void addRating(String orderId, int rating) {
+        Order order = orders.get(orderId);
+        order.setRating(rating);
+        driverService.updateDriverRating(order.getDriverId(), rating);
     }
 }

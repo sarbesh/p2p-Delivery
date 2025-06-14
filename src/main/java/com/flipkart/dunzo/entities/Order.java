@@ -22,6 +22,7 @@ public class Order {
     private LocalDateTime pickedUpTime;
     private LocalDateTime deliveredTime;
     private LocalDateTime updatedTime;
+    private double rating;
 
     public Order(String orderId, String customerId, String itemId) {
         this.orderId = orderId;
@@ -53,6 +54,11 @@ public class Order {
 
     public void cancel() {
         this.status = OrderStatus.CANCELED;
+        this.updatedTime = LocalDateTime.now();
+    }
+
+    public void setRating(double rating) {
+        this.rating = rating;
         this.updatedTime = LocalDateTime.now();
     }
 }

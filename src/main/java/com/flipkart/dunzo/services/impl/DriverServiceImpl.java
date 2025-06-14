@@ -36,6 +36,7 @@ public class DriverServiceImpl implements DriverService {
     public void setDriverAvailability(String id, boolean available) {
         if (drivers.containsKey(id)) {
             drivers.get(id).setAvailable(available);
+            drivers.get(id).incrementDeliveryCount();
         }
     }
 
@@ -49,6 +50,11 @@ public class DriverServiceImpl implements DriverService {
         return drivers.values().stream()
                 .filter(Driver::isAvailable)
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public void updateDriverRating(String driverId, int rating) {
+        drivers.get(driverId).setRating(rating);
     }
 
 

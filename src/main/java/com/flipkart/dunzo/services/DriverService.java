@@ -15,4 +15,6 @@ public interface DriverService {
     List<Driver> getDrivers();
 
     List<Driver> getAvailableDrivers();
+
+    void updateDriverRating(String driverId, int rating);
 }

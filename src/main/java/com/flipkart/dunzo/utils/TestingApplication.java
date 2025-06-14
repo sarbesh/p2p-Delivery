@@ -64,7 +64,9 @@ public class TestingApplication {
     }
 
     public void multipleOrderSingleDriver(){
-        String customerId = customerService.onboardCustomer("abc", "abc@gmail", 123);
+        Random rand = new Random();
+        int randomNum = rand.nextInt((100 - 1) + 1) + 1;
+        String customerId = customerService.onboardCustomer("abc" + randomNum, "abc" + randomNum + "@gmail", 123);
         System.out.println("Customer onboarded with ID: " + customerId);
         String driverId = driverService.onboardDriver("abc", 123);
         System.out.println("Driver onboarded with ID: " + driverId);
